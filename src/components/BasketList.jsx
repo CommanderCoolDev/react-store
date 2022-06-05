@@ -28,7 +28,10 @@ function BasketList(prop) {
       ) : (
         <li className="collection-item ">Cart is empty</li>
       )}
-      <li className="collection-item active">Total Price: {totalPrice}</li>
+      <li className="collection-item active">Total Price: {totalPrice} EU</li>
+      <li className="collection-item active">
+        <button className=" btn-small">BUY!</button>
+      </li>
       <i className="material-icons basket-close" onClick={handleBasketShow}>
         close
       </i>
